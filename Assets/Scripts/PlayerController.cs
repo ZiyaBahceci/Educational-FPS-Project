@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    public float moveSpeed, gravityModifier, jumpPower;
+    public float moveSpeed, gravityModifier, jumpPower, runSpeed = 16f;
 
     public CharacterController charCon;
 
@@ -20,6 +20,10 @@ public class PlayerController : MonoBehaviour
     public Transform groundCheckPoint;
     public LayerMask whatIsGround;
 
+    public Animator anim;
+
+    public GameObject bullet;
+    public Transform firePoint;
     void Start()
     {
                 
@@ -35,8 +39,16 @@ public class PlayerController : MonoBehaviour
         Vector3 horiMove = transform.right * Input.GetAxis("Horizontal"); //player moves horizontally    
 
         moveInput = horiMove + vertMove;    //Character Motion (X and Y)
-        //moveInput.Normalize();  //To make sure moving speed is always the same - not necessary in our game.
-        moveInput = moveInput * moveSpeed;  //Character Speed (X and Y)
+        moveInput = Vector3.ClampMagnitude(moveInput, 1f); //To keep the movement speed stable
+
+        if(Input.GetKey(KeyCode.LeftShift))
+        {
+            moveInput = moveInput * runSpeed;
+        }
+        else
+        {
+            moveInput = moveInput * moveSpeed;
+        }
 
         moveInput.y = yStore;
 
@@ -72,5 +84,28 @@ public class PlayerController : MonoBehaviour
         transform.rotation = Quaternion.Euler(transform.rotation.eulerAngles.x, transform.rotation.eulerAngles.y + mouseInput.x, transform.rotation.eulerAngles.z); //Camera Control X
        
         camTrans.rotation = Quaternion.Euler(camTrans.rotation.eulerAngles + new Vector3(-mouseInput.y, 0f, 0f));                                                   //Camera Control Y
+
+        if(Input.GetMouseButtonDown(0))                                        //Controls firing
+        {
+            RaycastHit hit;
+            if (Physics.Raycast(camTrans.position, camTrans.forward, out hit, 50f))
+            {
+                if(Vector3.Distance(camTrans.position, hit.point) > 4f)
+                {
+                    firePoint.LookAt(hit.point);
+                }
+            }
+            else
+            {
+                firePoint.LookAt(camTrans.position + (camTrans.forward * 30f));
+            }
+
+            Instantiate(bullet, firePoint.position, firePoint.rotation);
+        }
+
+        anim.SetFloat("moveSpeed", moveInput.magnitude);    //Walking/Running Animation
+        anim.SetBool("onGround", canJump);                  //This exists so moving animation won't work midair
+        
+       
     }
 }
