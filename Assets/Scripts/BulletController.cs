@@ -9,6 +9,11 @@ public class BulletController : MonoBehaviour
     public Rigidbody theRB;
 
     public GameObject impactEffect;
+
+    public int damage = 1;
+
+    //public bool damageEnemy, damagePlayer;
+
     void Start()
     {
         
@@ -16,19 +21,32 @@ public class BulletController : MonoBehaviour
 
     void Update()
     {
-        theRB.velocity = transform.forward * moveSpeed;
+        theRB.velocity = transform.forward * moveSpeed;         
 
         lifeTime -= Time.deltaTime;
 
-        if(lifeTime <= 0)
+        if(lifeTime <= 0)           //destroy bullets after a certain time
         {
             Destroy(gameObject);
         }
     }
 
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter(Collider other)                 
     {
-        Destroy(gameObject);
-        Instantiate(impactEffect, transform.position + (transform.forward * (-moveSpeed * Time.deltaTime)), transform.rotation);
+        if(other.gameObject.tag == "Enemy")             //if bullet hits enemy
+        {
+            //Destroy(other.gameObject);
+            other.gameObject.GetComponent<EnemyHealthController>().DamageEnemy(damage);
+
+        }
+
+        if(other.gameObject.tag == "Player")
+        {
+            Debug.Log("Hit Player at " + transform.position);
+        }
+
+
+        Instantiate(impactEffect, transform.position + (transform.forward * (-moveSpeed * Time.deltaTime)), transform.rotation); //Bullet Hit Effect
+        Destroy(gameObject); //destroy bullet upon contact            
     }
 }

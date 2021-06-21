@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    public float moveSpeed, gravityModifier, jumpPower, runSpeed = 16f;
+    public static PlayerController instance;
+
+    public float moveSpeed, gravityModifier, jumpPower;
 
     public CharacterController charCon;
 
@@ -24,6 +26,11 @@ public class PlayerController : MonoBehaviour
 
     public GameObject bullet;
     public Transform firePoint;
+    private void Awake()
+    {
+        instance = this;
+    }
+
     void Start()
     {
                 
@@ -39,16 +46,10 @@ public class PlayerController : MonoBehaviour
         Vector3 horiMove = transform.right * Input.GetAxis("Horizontal"); //player moves horizontally    
 
         moveInput = horiMove + vertMove;    //Character Motion (X and Y)
-        moveInput = Vector3.ClampMagnitude(moveInput, 1f); //To keep the movement speed stable
+       // moveInput = Vector3.ClampMagnitude(moveInput, 1f); //To keep the movement speed stable
 
-        if(Input.GetKey(KeyCode.LeftShift))
-        {
-            moveInput = moveInput * runSpeed;
-        }
-        else
-        {
             moveInput = moveInput * moveSpeed;
-        }
+        
 
         moveInput.y = yStore;
 
