@@ -39,16 +39,17 @@ public class BulletController : MonoBehaviour
             other.gameObject.GetComponent<EnemyHealthController>().DamageEnemy(damage);
         }
 
-        if(other.gameObject.tag == "Headshot")
+        if(other.gameObject.tag == "Headshot")                                                          //If bullet hits enemy with a headshot
         {
             other.transform.parent.GetComponent<EnemyHealthController>().DamageEnemy(damage * 3);
             Debug.Log("Headshot");
         }
 
 
-        if(other.gameObject.tag == "Player")
+        if(other.gameObject.tag == "Player")                    //Player being hit
         {
-            Debug.Log("Hit Player at " + transform.position);
+            PlayerHealthController.instance.DamagePlayer(damage);
+            //Debug.Log("Hit Player at " + transform.position);
         }
 
 
