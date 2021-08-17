@@ -6,7 +6,7 @@ public class PlayerController : MonoBehaviour
 {
     public static PlayerController instance;
 
-    public float moveSpeed, gravityModifier, jumpPower;
+    public float moveSpeed, gravityModifier, jumpPower, runSpeed = 16f;
 
     public CharacterController charCon;
 
@@ -18,7 +18,7 @@ public class PlayerController : MonoBehaviour
     public bool invertX;            
     public bool invertY;
 
-    private bool canJump;
+    private bool canJump, canDoubleJump;
     public Transform groundCheckPoint;
     public LayerMask whatIsGround;
 
@@ -46,10 +46,16 @@ public class PlayerController : MonoBehaviour
         Vector3 horiMove = transform.right * Input.GetAxis("Horizontal"); //player moves horizontally    
 
         moveInput = horiMove + vertMove;    //Character Motion (X and Y)
-       // moveInput = Vector3.ClampMagnitude(moveInput, 1f); //To keep the movement speed stable
+        moveInput = Vector3.ClampMagnitude(moveInput, 1f); //To keep the movement speed stable
 
+        if (Input.GetKey(KeyCode.LeftShift))
+        {
+            moveInput = moveInput * runSpeed;
+        }
+        else
+        {
             moveInput = moveInput * moveSpeed;
-        
+        }
 
         moveInput.y = yStore;
 
@@ -62,11 +68,23 @@ public class PlayerController : MonoBehaviour
 
         canJump = Physics.OverlapSphere(groundCheckPoint.position, .25f, whatIsGround).Length > 0; //determine if player can jump (is player on ground)
 
+        if(canJump)
+        {
+            canDoubleJump = false;
+        }
+
         if(Input.GetKeyDown(KeyCode.Space) && canJump)     //Handle jumping
         {
             moveInput.y = jumpPower;
-        }
 
+            canDoubleJump = true;
+        }   
+        else if (canDoubleJump && Input.GetKeyDown(KeyCode.Space))
+        {
+            moveInput.y = jumpPower;
+
+            canDoubleJump = false;
+        }
 
         charCon.Move(moveInput * Time.deltaTime);   //Move speed control
 

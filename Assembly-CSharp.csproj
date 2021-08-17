@@ -54,6 +54,7 @@
      <Compile Include="Assets\Scripts\EnemyController.cs" />
      <Compile Include="Assets\Scripts\TargetMovement.cs" />
      <Compile Include="Assets\Udemy FPS Assets\Starfield Skybox\Demo\Script\LookCamera.cs" />
+     <Compile Include="Assets\Scripts\UIController.cs" />
      <Compile Include="Assets\Scripts\GameManager.cs" />
      <Compile Include="Assets\Scripts\EnemyHealthController.cs" />
      <None Include="Assets\Udemy FPS Assets\model credits.txt" />
