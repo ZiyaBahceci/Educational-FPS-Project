@@ -16,7 +16,11 @@ public class PlayerHealthController : MonoBehaviour
 
     void Start()
     {
-        currentHealth = maxHealth;   
+        currentHealth = maxHealth;
+
+        UIController.instance.healthSlider.maxValue = maxHealth;
+        UIController.instance.healthSlider.value = currentHealth;
+        UIController.instance.healthText.text = "HEALTH: " + currentHealth + "/" + maxHealth;
     }
 
     void Update()
@@ -33,5 +37,7 @@ public class PlayerHealthController : MonoBehaviour
         {
             gameObject.SetActive(false);
         }
+        UIController.instance.healthSlider.value = currentHealth;
+        UIController.instance.healthText.text = "HEALTH: " + currentHealth + "/" + maxHealth;
     }
 }
