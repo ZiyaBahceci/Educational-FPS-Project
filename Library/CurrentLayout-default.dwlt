@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 780.8
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Game
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 677, y: 492}
   m_MaxSize: {x: 14001, y: 14042}
   vertical: 0
-  controlID: 50
+  controlID: 110
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -154,7 +154,7 @@ MonoBehaviour:
     y: 0
     width: 1536
     height: 781
-  m_MinSize: {x: 875, y: 300}
+  m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
   m_TopViewHeight: 30
@@ -230,7 +230,7 @@ MonoBehaviour:
   m_MinSize: {x: 402, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 24
+  controlID: 115
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -255,7 +255,7 @@ MonoBehaviour:
   m_MinSize: {x: 402, y: 221}
   m_MaxSize: {x: 8002, y: 4021}
   vertical: 0
-  controlID: 25
+  controlID: 116
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1324,23 +1324,23 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Prefabs/Bullets
+    - Assets/Scripts
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Prefabs/Bullets
+  - Assets/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: "C:\\Users\\ziya2\\OneDrive\\Masa\xFCst\xFC\\Death Bunker\\Educational
     FPS Project"
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 583f0000
-    m_LastClickedID: 16216
-    m_ExpandedIDs: 00000000403f0000423f0000443f0000463f0000483f00004a3f00004c3f00004e3f000000ca9a3b
+    scrollPos: {x: 0, y: 29}
+    m_SelectedIDs: a63f0000
+    m_LastClickedID: 16294
+    m_ExpandedIDs: 00000000623f0000643f0000663f0000683f00006a3f00006c3f00006e3f0000703f000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1368,7 +1368,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000403f0000423f0000443f0000463f0000483f00004a3f00004c3f00004e3f0000
+    m_ExpandedIDs: 00000000623f0000643f0000663f0000683f00006a3f00006c3f00006e3f0000703f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1395,7 +1395,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000e084000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1489,9 +1489,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: bc3c0000
-      m_LastClickedID: 15548
-      m_ExpandedIDs: 52fbffff543c00006a3c0000b43c0000ec3c0000403d0000
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 52fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1551,9 +1551,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0, y: 1.6000001, z: 0}
+    m_Target: {x: -9.341395, y: 11.097731, z: 11.945699}
     speed: 2
-    m_Value: {x: 0, y: 1.6000001, z: 0}
+    m_Value: {x: -9.341395, y: 11.097731, z: 11.945699}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1600,13 +1600,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.20727567, y: 0.3578756, z: -0.08178907, w: -0.90681696}
+    m_Target: {x: -0.32720608, y: -0.4701244, z: 0.19308561, w: -0.7966689}
     speed: 2
-    m_Value: {x: -0.20702475, y: 0.36058637, z: -0.08240868, w: -0.90571904}
+    m_Value: {x: -0.32719886, y: -0.47011402, z: 0.19308135, w: -0.7966513}
   m_Size:
     m_Target: 2.6660252
     speed: 2
-    m_Value: 2.3660252
+    m_Value: 2.6660252
   m_Ortho:
     m_Target: 0
     speed: 2
