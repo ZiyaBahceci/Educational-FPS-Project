@@ -1,0 +1,1855 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.12f1 (b3b2c6512326) revision 11776710'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.1466; Version 2009; 64bit' Language: 'en' Physical Memory: 16145 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.12f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/OneDrive/Masaüstü/Unity/Educational FPS Project
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49230
+Successfully changed project path to: C:/OneDrive/Masaüstü/Unity/Educational FPS Project
+C:/OneDrive/Masaüstü/Unity/Educational FPS Project
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 31.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.12f1 (b3b2c6512326)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/OneDrive/Masaüstü/Unity/Educational FPS Project/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f15)
+    Vendor:   
+    VRAM:     5980 MB
+    Driver:   30.0.14.9676
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56772
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001677 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 28.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.963 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004046 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.035 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1395 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.1 MB.
+System memory in use after: 67.1 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1837.
+Total: 3.350300 ms (FindLiveObjects: 0.252100 ms CreateObjectMapping: 0.139500 ms MarkObjects: 2.845600 ms  DeleteObjects: 0.111600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Materials/Lead.mat
+  artifactKey: Guid(36016f1ecdfc1b440a53bac7c70df6ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Lead.mat using Guid(36016f1ecdfc1b440a53bac7c70df6ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8ea0c7373f99c47ef066c0b2029c528') in 0.101629 seconds 
+  Import took 0.104622 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 76.500737 seconds.
+  path: Assets/Udemy FPS Assets/Art/UI
+  artifactKey: Guid(c6c15235c2d6c40419b974360b878c05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Udemy FPS Assets/Art/UI using Guid(c6c15235c2d6c40419b974360b878c05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caf032282e9778276353c5a49332edea') in 0.002331 seconds 
+  Import took 0.005080 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.028214 seconds.
+  path: Assets/Assets/Audio/Music
+  artifactKey: Guid(de3a765808bd4114489ba6abea10beb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Audio/Music using Guid(de3a765808bd4114489ba6abea10beb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3ac2478ee513715023746aad5289b9d') in 0.002399 seconds 
+  Import took 0.004906 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.135798 seconds.
+  path: Assets/Assets/Audio/Music/Level 1.wav
+  artifactKey: Guid(d401fd5dd6c3c9646b0e527788be3888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Audio/Music/Level 1.wav using Guid(d401fd5dd6c3c9646b0e527788be3888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '214197fc4d59575b6dbf4f181a7969bd') in 0.048608 seconds 
+  Import took 0.051113 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Assets/Audio/Music/Victory.wav
+  artifactKey: Guid(e45300b8a53442341aea31f3aca2c720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Audio/Music/Victory.wav using Guid(e45300b8a53442341aea31f3aca2c720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d958ed8eabcf098f048931f8003507f') in 0.011007 seconds 
+  Import took 0.013101 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Assets/Audio/Music/Level Complete.wav
+  artifactKey: Guid(ce27fa81f543e5547a476c73c5a44899) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Audio/Music/Level Complete.wav using Guid(ce27fa81f543e5547a476c73c5a44899) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07e6576cc5952bde22aa6b83bf8f0a3f') in 0.020151 seconds 
+  Import took 0.022719 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/Assets/Audio/Music/Title Screen.wav
+  artifactKey: Guid(adc8a55f64f236f46a89ca18e028300a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Audio/Music/Title Screen.wav using Guid(adc8a55f64f236f46a89ca18e028300a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00de08fb2df232421476a4e6a8fe70db') in 0.017985 seconds 
+  Import took 0.020889 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Assets/Audio/Music/Level 2.wav
+  artifactKey: Guid(f0c07f357826b574bbaf465904251cad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Audio/Music/Level 2.wav using Guid(f0c07f357826b574bbaf465904251cad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '008ade8b1777f7903b3b03aa1f0746a3') in 0.011090 seconds 
+  Import took 0.014864 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.116576 seconds.
+  path: Assets/Assets/Audio/SFX/bouncepad.wav
+  artifactKey: Guid(c5f32f63283035f4aa14526e80489f68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Audio/SFX/bouncepad.wav using Guid(c5f32f63283035f4aa14526e80489f68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee0018eb187c4ba9d0ef56e2030e32eb') in 0.015091 seconds 
+  Import took 0.017646 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Assets/Audio/SFX/player_Jump.wav
+  artifactKey: Guid(fa867c033f394d6449dfca6a35bee2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Audio/SFX/player_Jump.wav using Guid(fa867c033f394d6449dfca6a35bee2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a7ecabb174ae62590f0d61d2ba1cecb') in 0.009734 seconds 
+  Import took 0.011934 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Assets/Audio/SFX/Explosion.wav
+  artifactKey: Guid(868dc54cda5f16f4cb90c547b57f71b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Audio/SFX/Explosion.wav using Guid(868dc54cda5f16f4cb90c547b57f71b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cb2f9f0ad5ec43bbd6ff98a58258495') in 0.009380 seconds 
+  Import took 0.013027 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Assets/Audio/SFX/Laser_Sniper.wav
+  artifactKey: Guid(68f09a1e87b4cff4990622f0bb452920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Audio/SFX/Laser_Sniper.wav using Guid(68f09a1e87b4cff4990622f0bb452920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '897f83666eb6c1c23b07833a0170305b') in 0.010259 seconds 
+  Import took 0.013190 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Assets/Audio/SFX/Laser_MachineGun.wav
+  artifactKey: Guid(c057fbde4abbb054c8b7b5dce191cbe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Audio/SFX/Laser_MachineGun.wav using Guid(c057fbde4abbb054c8b7b5dce191cbe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fadc9f44372b9e0088710259b4c06a02') in 0.011567 seconds 
+  Import took 0.013945 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Assets/Audio/SFX/footsteps_slow.wav
+  artifactKey: Guid(3b6c43cdcec12b0409e712d1e041904e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Audio/SFX/footsteps_slow.wav using Guid(3b6c43cdcec12b0409e712d1e041904e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6fe2e10aba7887b59afa1ee649159c8') in 0.009754 seconds 
+  Import took 0.013483 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Assets/Audio/SFX/player_hurt.wav
+  artifactKey: Guid(b5a251bf6a7968341848db495df9d475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Audio/SFX/player_hurt.wav using Guid(b5a251bf6a7968341848db495df9d475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a28c77d377a7580cac85cfd0411edd9e') in 0.010238 seconds 
+  Import took 0.013053 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Assets/Audio/SFX/pickup_gun.wav
+  artifactKey: Guid(85cebfd8031be1d49b391aa386e2e361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Audio/SFX/pickup_gun.wav using Guid(85cebfd8031be1d49b391aa386e2e361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd197e51d5a53979f4b8a168884d235da') in 0.011035 seconds 
+  Import took 0.013652 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/Assets/Audio/SFX/Enemy_Shot.wav
+  artifactKey: Guid(eb341f902d3082a459b49b9b12bbeaa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Audio/SFX/Enemy_Shot.wav using Guid(eb341f902d3082a459b49b9b12bbeaa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ce7cae3947c2a472d529d154f7e8cc9') in 0.011508 seconds 
+  Import took 0.014624 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Assets/Audio/SFX/checkpoint.wav
+  artifactKey: Guid(dd831d032768c6049bdae1f4929ca8e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Audio/SFX/checkpoint.wav using Guid(dd831d032768c6049bdae1f4929ca8e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48b74fc8d98c87400edbc889607dc10a') in 0.011512 seconds 
+  Import took 0.014784 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Assets/Audio/SFX/player_dead.wav
+  artifactKey: Guid(246ec83705c2cf641a65796a49396270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Audio/SFX/player_dead.wav using Guid(246ec83705c2cf641a65796a49396270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac04f0379afee62080d889a2dd68c7f9') in 0.009986 seconds 
+  Import took 0.013144 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000344 seconds.
+  path: Assets/Assets/Audio/SFX/pickup_health.wav
+  artifactKey: Guid(b6a45ed046dd9e34083bad3d8e4fbb0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Audio/SFX/pickup_health.wav using Guid(b6a45ed046dd9e34083bad3d8e4fbb0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a07cad25ffcc1a33d6d5c7ca8c5105bf') in 0.011742 seconds 
+  Import took 0.015154 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000344 seconds.
+  path: Assets/Assets/Audio/SFX/footsteps_fast.wav
+  artifactKey: Guid(779e84817cfb1844a97b0bec1aafa909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Audio/SFX/footsteps_fast.wav using Guid(779e84817cfb1844a97b0bec1aafa909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '819000b080d1848f4806cbc626a53747') in 0.009485 seconds 
+  Import took 0.014476 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/Assets/Audio/SFX/Laser_Impact.wav
+  artifactKey: Guid(324197ebc5621d54e8fade6df5239891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Audio/SFX/Laser_Impact.wav using Guid(324197ebc5621d54e8fade6df5239891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '990335bd5174eceecb95c865dc9f26b6') in 0.034862 seconds 
+  Import took 0.039210 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Assets/Audio/SFX/pickup_ammo.wav
+  artifactKey: Guid(7a3ec9e4ef8c10a47ab8b97cd0a24c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Audio/SFX/pickup_ammo.wav using Guid(7a3ec9e4ef8c10a47ab8b97cd0a24c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '246e51ee649ad917f51ec1b047108d2e') in 0.026515 seconds 
+  Import took 0.029359 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Assets/Audio/SFX/Laser_Pistol.wav
+  artifactKey: Guid(17018fbdc5aae794e95ec9723d3a9f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Audio/SFX/Laser_Pistol.wav using Guid(17018fbdc5aae794e95ec9723d3a9f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4db59590ad0b626ad03640261d942c87') in 0.028556 seconds 
+  Import took 0.031110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Assets/Audio/SFX/Rocket_Launch.wav
+  artifactKey: Guid(41bb2e52d916e1742857f9ca41f26a4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Audio/SFX/Rocket_Launch.wav using Guid(41bb2e52d916e1742857f9ca41f26a4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98e64851fc9818dedc2254b9434ae6a3') in 0.010558 seconds 
+  Import took 0.013151 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.797952 seconds.
+  path: Assets/Assets/Models/Character - Kenney/Materials/robot3 - Copy.png
+  artifactKey: Guid(03d163a665b3a6f488c0d9840a2ef96c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Character - Kenney/Materials/robot3 - Copy.png using Guid(03d163a665b3a6f488c0d9840a2ef96c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '010fd5916b196ef0a6d23cf9e8ba0354') in 0.062278 seconds 
+  Import took 0.068447 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Assets/Models/Character - Kenney/Materials/robot3.png
+  artifactKey: Guid(94d7dd355f44f334891bf4f6cca9bd95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Character - Kenney/Materials/robot3.png using Guid(94d7dd355f44f334891bf4f6cca9bd95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c3e371f594d62cf32eb6526650a3fe4') in 0.009499 seconds 
+  Import took 0.014388 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Assets/Models/Character - Kenney/Materials/survivorMaleB - Copy.png
+  artifactKey: Guid(e748c8855735f9845ae01aafea29ea63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Character - Kenney/Materials/survivorMaleB - Copy.png using Guid(e748c8855735f9845ae01aafea29ea63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2ede575fd03fd960814c97ec59ed0b0') in 0.012694 seconds 
+  Import took 0.017116 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Assets/Models/Character - Kenney/Materials/survivorFemaleA.png
+  artifactKey: Guid(4f877fc6c4835ff40bc3530ee16e0d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Character - Kenney/Materials/survivorFemaleA.png using Guid(4f877fc6c4835ff40bc3530ee16e0d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8383fef9313c37341eb7275cc1862f80') in 0.021385 seconds 
+  Import took 0.030821 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000476 seconds.
+  path: Assets/Assets/Models/Character - Kenney/Materials/zombieC - Copy.png
+  artifactKey: Guid(e44061f2fdbb21e49bdc557e2151385d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Character - Kenney/Materials/zombieC - Copy.png using Guid(e44061f2fdbb21e49bdc557e2151385d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b23272f5cb68d589816cab48743e432') in 0.013553 seconds 
+  Import took 0.023497 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Assets/Models/Character - Kenney/Materials/survivorFemaleA - Copy.png
+  artifactKey: Guid(60e43a6cc7ba35d4489addb3c4be5fef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Character - Kenney/Materials/survivorFemaleA - Copy.png using Guid(60e43a6cc7ba35d4489addb3c4be5fef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a87547fb22642cfad43562e0f3515453') in 0.008803 seconds 
+  Import took 0.013090 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Assets/Models/Character - Kenney/Materials/survivorMaleB.png
+  artifactKey: Guid(aebb532dd9bbb7d458f971f471d03afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Character - Kenney/Materials/survivorMaleB.png using Guid(aebb532dd9bbb7d458f971f471d03afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77499f14fe7b1b558bf85fd94e794c7e') in 0.014629 seconds 
+  Import took 0.018930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/Assets/Models/Character - Kenney/Materials/zombieA - Copy.png
+  artifactKey: Guid(7ee4318c5c556da48a0651e57c2ab131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Character - Kenney/Materials/zombieA - Copy.png using Guid(7ee4318c5c556da48a0651e57c2ab131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e379dbfec9b5b3f25a8a3eff78352945') in 0.014297 seconds 
+  Import took 0.017560 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Assets/Models/Character - Kenney/Materials/zombieA.png
+  artifactKey: Guid(dc3718fcd3416294687ae1560765ffd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Character - Kenney/Materials/zombieA.png using Guid(dc3718fcd3416294687ae1560765ffd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe443ac05a42861399836265dd108920') in 0.017965 seconds 
+  Import took 0.021226 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Assets/Models/Character - Kenney/Materials/zombieC.png
+  artifactKey: Guid(9bac56d0b57930e4b8a27a5040d6fba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Character - Kenney/Materials/zombieC.png using Guid(9bac56d0b57930e4b8a27a5040d6fba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd43e722a49c48b3340ffbf2b526fb52') in 0.013881 seconds 
+  Import took 0.017641 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Assets/Models/Character - Kenney/Materials/skin - Copy.mat
+  artifactKey: Guid(09e6e3a08614571488afda98dbf53c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Character - Kenney/Materials/skin - Copy.mat using Guid(09e6e3a08614571488afda98dbf53c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75748a5e7d57f97f63da1275338f5724') in 0.011354 seconds 
+  Import took 0.014286 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.456027 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/alien - Copy.prefab
+  artifactKey: Guid(cb4fbf412f0813b469d206e59c0c514c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/alien - Copy.prefab using Guid(cb4fbf412f0813b469d206e59c0c514c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9d03e44b519f4a2b5158d25029595b2') in 0.022065 seconds 
+  Import took 0.024559 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/astronaut - Copy.prefab
+  artifactKey: Guid(adcc5449a5a295747a36cab33b7d549e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/astronaut - Copy.prefab using Guid(adcc5449a5a295747a36cab33b7d549e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fbd684c9100f06b0a041ef22442b01f') in 0.008555 seconds 
+  Import took 0.011515 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/alien.prefab
+  artifactKey: Guid(f7cef58c546dc704498e667364806adf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/alien.prefab using Guid(f7cef58c546dc704498e667364806adf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '135cbbc81cb5fefe55d588876bc5406b') in 0.008846 seconds 
+  Import took 0.011188 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/consoleCorner - Copy.prefab
+  artifactKey: Guid(84e3130d43831ae4d99a0349f3a776dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/consoleCorner - Copy.prefab using Guid(84e3130d43831ae4d99a0349f3a776dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ec3d17280dc2ef1f67b70617745f9a3') in 0.008427 seconds 
+  Import took 0.010814 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/barrelLarge.prefab
+  artifactKey: Guid(b231812d7db12004b96e3122a9a2cd1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/barrelLarge.prefab using Guid(b231812d7db12004b96e3122a9a2cd1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a3a8186a4ffce3e193cf1cb2a28b53d') in 0.008490 seconds 
+  Import took 0.011166 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/console - Copy.prefab
+  artifactKey: Guid(4e853562adf643a42b0c5bad33ab1fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/console - Copy.prefab using Guid(4e853562adf643a42b0c5bad33ab1fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27604098f4af75fe82e71aa3cd826989') in 0.008429 seconds 
+  Import took 0.011012 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/frameHighTile - Copy.prefab
+  artifactKey: Guid(e65df8e014bf150479b6b9359c3ccc57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/frameHighTile - Copy.prefab using Guid(e65df8e014bf150479b6b9359c3ccc57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0656d3c42c22b7b675e3388689806ec0') in 0.010125 seconds 
+  Import took 0.012811 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/console.prefab
+  artifactKey: Guid(ce702e34d1675a64c9e45e6feec058a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/console.prefab using Guid(ce702e34d1675a64c9e45e6feec058a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8c80a018f2e56bd206790b28aa9e3a2') in 0.010344 seconds 
+  Import took 0.013145 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/frameLowTile.prefab
+  artifactKey: Guid(87b070c4786068843a020ed86ff312a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/frameLowTile.prefab using Guid(87b070c4786068843a020ed86ff312a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef14ec1babc6e141a36ac66962a21961') in 0.011497 seconds 
+  Import took 0.015777 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/metalFenceCorner - Copy.prefab
+  artifactKey: Guid(a5f73bfc2fc7ce74e860412a2d4a3404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/metalFenceCorner - Copy.prefab using Guid(a5f73bfc2fc7ce74e860412a2d4a3404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '837db4fdeabddc7e03af266df2f7b951') in 0.009474 seconds 
+  Import took 0.012257 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/crater.prefab
+  artifactKey: Guid(4d6375f701822db49a1931a2d1cacb01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/crater.prefab using Guid(4d6375f701822db49a1931a2d1cacb01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5475076d55c4e6f8626fbe0dfb9ec416') in 0.009008 seconds 
+  Import took 0.012103 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/metalFenceDouble - Copy.prefab
+  artifactKey: Guid(96984fad50f39994f9a8ec5fdd726eb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/metalFenceDouble - Copy.prefab using Guid(96984fad50f39994f9a8ec5fdd726eb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f69b2f03cb8984fbe54dd8b26bae6884') in 0.009379 seconds 
+  Import took 0.012198 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/frameHigh - Copy.prefab
+  artifactKey: Guid(692e5ae75c1405941806ba13fd7bf300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/frameHigh - Copy.prefab using Guid(692e5ae75c1405941806ba13fd7bf300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ab8cce09b2af5858a638457ea6844b0') in 0.012217 seconds 
+  Import took 0.015131 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/buildingCorridor - Copy.prefab
+  artifactKey: Guid(cd3f70eb61eab824b968da8676af1624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/buildingCorridor - Copy.prefab using Guid(cd3f70eb61eab824b968da8676af1624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1163c7a1699cf6a2df1bbee1f914af34') in 0.010624 seconds 
+  Import took 0.013843 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/metalFence.prefab
+  artifactKey: Guid(4c7dd81c8287de0459626c6f4e13d665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/metalFence.prefab using Guid(4c7dd81c8287de0459626c6f4e13d665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1aaa0a1c1aa252a04cb4743cd12531ca') in 0.013323 seconds 
+  Import took 0.016332 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/consoleCorner.prefab
+  artifactKey: Guid(12ba9aefa7880924596d003bcd6a7378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/consoleCorner.prefab using Guid(12ba9aefa7880924596d003bcd6a7378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd867b4a7ca26f3182ad9a5eca7d012a') in 0.009201 seconds 
+  Import took 0.012560 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/groundTileRough - Copy.prefab
+  artifactKey: Guid(b91b06ba860d95348be784a5c641a4b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/groundTileRough - Copy.prefab using Guid(b91b06ba860d95348be784a5c641a4b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abd8636f21fac8006d5a67bd0db585fb') in 0.008489 seconds 
+  Import took 0.011258 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/buildingCorner - Copy.prefab
+  artifactKey: Guid(1b986ec749e41ab4cb0d44088bcb14c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/buildingCorner - Copy.prefab using Guid(1b986ec749e41ab4cb0d44088bcb14c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92e4b6675535612ae9a71847e25cf911') in 0.009543 seconds 
+  Import took 0.012642 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/buildingCorridorOpen - Copy.prefab
+  artifactKey: Guid(b52f640b6cb4fe648ace8d3be48789b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/buildingCorridorOpen - Copy.prefab using Guid(b52f640b6cb4fe648ace8d3be48789b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '908cf1f7d9fda30ebac342a25126ad0a') in 0.011207 seconds 
+  Import took 0.014643 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/craterLarge.prefab
+  artifactKey: Guid(25d9a3f59af84e34dbcdfbe8030d7707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/craterLarge.prefab using Guid(25d9a3f59af84e34dbcdfbe8030d7707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37ad3c198907977faaf9b57faeb596bb') in 0.010889 seconds 
+  Import took 0.014015 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/craterLarge - Copy.prefab
+  artifactKey: Guid(7ed33c53a7304b14ab19e8ac522d4fee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/craterLarge - Copy.prefab using Guid(7ed33c53a7304b14ab19e8ac522d4fee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23f761cf2405455b616c9aef1f38aaad') in 0.008244 seconds 
+  Import took 0.011331 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/frameHigh.prefab
+  artifactKey: Guid(a0653e5fbee0d4e4cba33ca48c104a5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/frameHigh.prefab using Guid(a0653e5fbee0d4e4cba33ca48c104a5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eeff01c88742ce2e0935358e7809dd9') in 0.010134 seconds 
+  Import took 0.013100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/barrel.prefab
+  artifactKey: Guid(f5813e68ea563fb44b80c52163e79e36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/barrel.prefab using Guid(f5813e68ea563fb44b80c52163e79e36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5da8894afcfca608657bc3c173d0b7ab') in 0.013201 seconds 
+  Import took 0.016497 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/frameLow - Copy.prefab
+  artifactKey: Guid(da3854074ac7e8b438d49301e3e177ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/frameLow - Copy.prefab using Guid(da3854074ac7e8b438d49301e3e177ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fbc2f608f6c8b6d3ef122b8902718ff') in 0.008191 seconds 
+  Import took 0.012560 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/consoleScreen.prefab
+  artifactKey: Guid(e6e93645c5d3195498f111fe4426b573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/consoleScreen.prefab using Guid(e6e93645c5d3195498f111fe4426b573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36de93c170b9b736c3f02feda394bc27') in 0.008490 seconds 
+  Import took 0.012728 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/buildingCorridor.prefab
+  artifactKey: Guid(21623bff6ec8a904cabd56ee68c15f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/buildingCorridor.prefab using Guid(21623bff6ec8a904cabd56ee68c15f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff804d4b62053ded4b0852e8490f1921') in 0.008962 seconds 
+  Import took 0.013165 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/buildingOpen.prefab
+  artifactKey: Guid(89e62beb4511d6645b78ccd8c8c647d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/buildingOpen.prefab using Guid(89e62beb4511d6645b78ccd8c8c647d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fa14dd4408efb462bd0d7e5001bfa7f') in 0.011341 seconds 
+  Import took 0.015030 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/groundTile.prefab
+  artifactKey: Guid(9be6a12d4fc5b704e9a15520d57b58ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/groundTile.prefab using Guid(9be6a12d4fc5b704e9a15520d57b58ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fbdfb0e3d443c1834e934c4edd62e5c') in 0.008089 seconds 
+  Import took 0.011497 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/frameLowTile - Copy.prefab
+  artifactKey: Guid(f7929e0ef4b68f641899dd83c9da822a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/frameLowTile - Copy.prefab using Guid(f7929e0ef4b68f641899dd83c9da822a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae62e117674f0a888985ace29207153d') in 0.008706 seconds 
+  Import took 0.011066 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/barrelLarge - Copy.prefab
+  artifactKey: Guid(c90ac0071ea149a4b8bdce31f033e07b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/barrelLarge - Copy.prefab using Guid(c90ac0071ea149a4b8bdce31f033e07b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46a86d54262d5be6d3365c638189de18') in 0.008429 seconds 
+  Import took 0.011871 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/groundTileRough.prefab
+  artifactKey: Guid(882e33feac7f016439141fcbe54221f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/groundTileRough.prefab using Guid(882e33feac7f016439141fcbe54221f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a5975a573d3bded350a6f7943b81f23') in 0.007287 seconds 
+  Import took 0.010219 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/buildingCorner.prefab
+  artifactKey: Guid(1404d6edc44bc2d4f828bcd06bdade8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/buildingCorner.prefab using Guid(1404d6edc44bc2d4f828bcd06bdade8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e20d9395aadba05c7c944c15d0b5cfe') in 0.008646 seconds 
+  Import took 0.011730 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/frameLow.prefab
+  artifactKey: Guid(7ec6b5713ca9f3949838cf351d89bb12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/frameLow.prefab using Guid(7ec6b5713ca9f3949838cf351d89bb12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41240d9e94c892a4875dfcebe2168d4b') in 0.007709 seconds 
+  Import took 0.011231 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/metalFenceCorner.prefab
+  artifactKey: Guid(50152b398096bb643ae07b1a33fa6bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/metalFenceCorner.prefab using Guid(50152b398096bb643ae07b1a33fa6bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf1bb3576ee575e4e9015fd48e04f860') in 0.007262 seconds 
+  Import took 0.010424 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/buildingOpen - Copy.prefab
+  artifactKey: Guid(d9f6666b6b987a8488a38d08ea9accad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/buildingOpen - Copy.prefab using Guid(d9f6666b6b987a8488a38d08ea9accad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e4a16dbb6923ba582f4a2a431293185') in 0.008471 seconds 
+  Import took 0.012115 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/buildingCorridorOpenEnd - Copy.prefab
+  artifactKey: Guid(0032b0c44d7f1814d840f63d36fb9ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/buildingCorridorOpenEnd - Copy.prefab using Guid(0032b0c44d7f1814d840f63d36fb9ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6472ff2dc02b2075451dbbd8df2473ea') in 0.009480 seconds 
+  Import took 0.013394 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/alienBones - Copy.prefab
+  artifactKey: Guid(9a14447e481e8814a81d6f24605ecf37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/alienBones - Copy.prefab using Guid(9a14447e481e8814a81d6f24605ecf37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8b1bfef3356c7bba31d8f15d99e56d6') in 0.009534 seconds 
+  Import took 0.013251 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/consoleScreen - Copy.prefab
+  artifactKey: Guid(95a3bcaa5c842934096cc1bfbd43287e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/consoleScreen - Copy.prefab using Guid(95a3bcaa5c842934096cc1bfbd43287e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd748dbf007a348c612165ccd0643ef23') in 0.009425 seconds 
+  Import took 0.013436 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/buildingCorridorOpenEnd.prefab
+  artifactKey: Guid(d422d9ca1f947764f8c3bbe085a715ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/buildingCorridorOpenEnd.prefab using Guid(d422d9ca1f947764f8c3bbe085a715ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '485ebe3f1c0d72f386cb3f4053af1592') in 0.009862 seconds 
+  Import took 0.013477 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/astronaut.prefab
+  artifactKey: Guid(380e07c5fefd4b744bff87f782d64252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/astronaut.prefab using Guid(380e07c5fefd4b744bff87f782d64252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a14c04df0ead1fe93718033c49d9f7dc') in 0.009212 seconds 
+  Import took 0.012270 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/groundTile - Copy.prefab
+  artifactKey: Guid(70848cf7628ea1b4999a2eaa40d32947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/groundTile - Copy.prefab using Guid(70848cf7628ea1b4999a2eaa40d32947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aff4297d87197dd8c5f248c6590c33b9') in 0.008549 seconds 
+  Import took 0.011439 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/frameHighTile.prefab
+  artifactKey: Guid(c386ee7fb2c15f34a9dad85136f5b732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/frameHighTile.prefab using Guid(c386ee7fb2c15f34a9dad85136f5b732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69a177b5e9d3c79fda45113851cf72c2') in 0.008485 seconds 
+  Import took 0.011490 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/buildingCorridorOpen.prefab
+  artifactKey: Guid(f8cc84e2b77587f46aeb116fd7efcd2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/buildingCorridorOpen.prefab using Guid(f8cc84e2b77587f46aeb116fd7efcd2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c20c984a341f3df80bcd32694a199335') in 0.009500 seconds 
+  Import took 0.012366 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/alienBones.prefab
+  artifactKey: Guid(bea136541b3a9a442aadfb565b4e74f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/alienBones.prefab using Guid(bea136541b3a9a442aadfb565b4e74f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4e7142a438e55a0f1381a749c0f1bb6') in 0.007651 seconds 
+  Import took 0.011182 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/barrel - Copy.prefab
+  artifactKey: Guid(62558c13a2531484a905adad8f912e89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/barrel - Copy.prefab using Guid(62558c13a2531484a905adad8f912e89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9becb026f41d6e72a63ea11d43790d5') in 0.008564 seconds 
+  Import took 0.011737 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/metalFence - Copy.prefab
+  artifactKey: Guid(d52700fee578efd48877a84470856b06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/metalFence - Copy.prefab using Guid(d52700fee578efd48877a84470856b06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40ebaecd43abf762fcdce64cfe9f4d25') in 0.007556 seconds 
+  Import took 0.010768 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/crater - Copy.prefab
+  artifactKey: Guid(2ab3620d7487ea344872415488babbd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/crater - Copy.prefab using Guid(2ab3620d7487ea344872415488babbd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '802ff09fb02879abdbec2c976c04693c') in 0.007224 seconds 
+  Import took 0.009923 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004223 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/metalFence - Copy.prefab
+  artifactKey: Guid(d52700fee578efd48877a84470856b06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/metalFence - Copy.prefab using Guid(d52700fee578efd48877a84470856b06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40ebaecd43abf762fcdce64cfe9f4d25') in 0.007876 seconds 
+  Import took 0.010544 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.727603 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/metalFenceDouble.prefab
+  artifactKey: Guid(7eae24c006a0ce746987236aa929b461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/metalFenceDouble.prefab using Guid(7eae24c006a0ce746987236aa929b461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb90087909879554320a4e90d086060e') in 0.015579 seconds 
+  Import took 0.020324 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/metalStructureCross.prefab
+  artifactKey: Guid(665b986bf2ccbc34ab672318b249175e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/metalStructureCross.prefab using Guid(665b986bf2ccbc34ab672318b249175e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff6bdf3d125bc7d2dede1de46bb37d32') in 0.011652 seconds 
+  Import took 0.015541 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/metalStructure.prefab
+  artifactKey: Guid(eceae7ef7cfe356498e15effb9bb7193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/metalStructure.prefab using Guid(eceae7ef7cfe356498e15effb9bb7193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a597a4c6d379ce1eefcdc8cdb7121ac') in 0.011842 seconds 
+  Import took 0.015631 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/metalTile - Copy.prefab
+  artifactKey: Guid(6f801029132612347b6dc0ab7eb16a22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/metalTile - Copy.prefab using Guid(6f801029132612347b6dc0ab7eb16a22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69d964d6c982c7e6c48c513925dbbf3b') in 0.012466 seconds 
+  Import took 0.016340 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/metalTileConnectCorner.prefab
+  artifactKey: Guid(e83c8405220ef2a4eb7966b2f0c93d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/metalTileConnectCorner.prefab using Guid(e83c8405220ef2a4eb7966b2f0c93d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6290758d37de18900d03b44f0d16b233') in 0.011250 seconds 
+  Import took 0.014541 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/metalTileConnectCornerInner - Copy.prefab
+  artifactKey: Guid(086990606f6991f4893cc8d71115b432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/metalTileConnectCornerInner - Copy.prefab using Guid(086990606f6991f4893cc8d71115b432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc8b003d13dfa9b72bb16577ef6a438d') in 0.007689 seconds 
+  Import took 0.010396 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/metalTileConnectStraight.prefab
+  artifactKey: Guid(929795e5e52ad134ea15d8cccdef026c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/metalTileConnectStraight.prefab using Guid(929795e5e52ad134ea15d8cccdef026c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1dd954cb30455f2fe0286d3d1249ee8') in 0.008830 seconds 
+  Import took 0.012383 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/metalTileDouble - Copy.prefab
+  artifactKey: Guid(64eac3c51e3f9ff4eb5ab2a46172012f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/metalTileDouble - Copy.prefab using Guid(64eac3c51e3f9ff4eb5ab2a46172012f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f62a0b6d988ea063934aac2e2f368490') in 0.009097 seconds 
+  Import took 0.012142 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/metalTileConnectStraight - Copy.prefab
+  artifactKey: Guid(af6cd656bec7c714eb6decc02764a56a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/metalTileConnectStraight - Copy.prefab using Guid(af6cd656bec7c714eb6decc02764a56a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4971dc627d29d952e9ec92a1049bfd09') in 0.008479 seconds 
+  Import took 0.011532 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/metalTileSmall - Copy.prefab
+  artifactKey: Guid(747dcb24e383ace40a6200d2da354cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/metalTileSmall - Copy.prefab using Guid(747dcb24e383ace40a6200d2da354cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1461e2f3a64ffce3c716840983e72c0') in 0.008772 seconds 
+  Import took 0.011428 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/metalTileSmall.prefab
+  artifactKey: Guid(eb83c80b387af5643935b8790fb1cb82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/metalTileSmall.prefab using Guid(eb83c80b387af5643935b8790fb1cb82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b19082b1aae2323d204e28a2ab085af3') in 0.008241 seconds 
+  Import took 0.011223 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/metalTileLarge - Copy.prefab
+  artifactKey: Guid(f225e19299b3a4344854a4c670c2af45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/metalTileLarge - Copy.prefab using Guid(f225e19299b3a4344854a4c670c2af45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dad2aa86c0d75dfc670f60cc7a5135b0') in 0.009494 seconds 
+  Import took 0.012269 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/metalTileConnectCornerInner.prefab
+  artifactKey: Guid(9124cdff7df648645b2eab024620b8f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/metalTileConnectCornerInner.prefab using Guid(9124cdff7df648645b2eab024620b8f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de91ce3c134bb277845dfafa18a19ada') in 0.010854 seconds 
+  Import took 0.015253 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/metalTileConnectEnd - Copy.prefab
+  artifactKey: Guid(362bbe882eb07e64088834bab9d56351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/metalTileConnectEnd - Copy.prefab using Guid(362bbe882eb07e64088834bab9d56351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ec68179a185e79ff2a1aaa6d5e238b7') in 0.009299 seconds 
+  Import took 0.013140 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000390 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/meteorHalf.prefab
+  artifactKey: Guid(2513edea336d10d4eaa39ff89a057e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/meteorHalf.prefab using Guid(2513edea336d10d4eaa39ff89a057e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9697dd94c229a195efef09eed52eb564') in 0.008091 seconds 
+  Import took 0.011347 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/meteorFullRound - Copy.prefab
+  artifactKey: Guid(7161d139898d0f64c80786b6a0957e4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/meteorFullRound - Copy.prefab using Guid(7161d139898d0f64c80786b6a0957e4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a221d5a851a60b83de5e5ed01c5b138') in 0.009253 seconds 
+  Import took 0.014217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/metalTileConnectEnd.prefab
+  artifactKey: Guid(e83d7263c9be971419186aea11ab14a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/metalTileConnectEnd.prefab using Guid(e83d7263c9be971419186aea11ab14a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fc2026f6ea0c9f61bbff4392758782f') in 0.007996 seconds 
+  Import took 0.012759 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/meteorHalf - Copy.prefab
+  artifactKey: Guid(61d0901e256bc674297ecde72d9ef8e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/meteorHalf - Copy.prefab using Guid(61d0901e256bc674297ecde72d9ef8e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9f629861bd891fbb257a8b20610ddcd') in 0.007611 seconds 
+  Import took 0.010940 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/metalTileCorner - Copy.prefab
+  artifactKey: Guid(553f1118b01041248b3501c2ec8ad847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/metalTileCorner - Copy.prefab using Guid(553f1118b01041248b3501c2ec8ad847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a5dbd39a45dc37b25c7bcf3d56df275') in 0.009985 seconds 
+  Import took 0.012664 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/meteorFullRound.prefab
+  artifactKey: Guid(c4f6ce38e9488bf4a9b3517d94544ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/meteorFullRound.prefab using Guid(c4f6ce38e9488bf4a9b3517d94544ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c18dffd91fb397dee90b2ea04a24295f') in 0.008207 seconds 
+  Import took 0.011023 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/metalStructure - Copy.prefab
+  artifactKey: Guid(963bac5df5ce6a8488439217ac86eea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/metalStructure - Copy.prefab using Guid(963bac5df5ce6a8488439217ac86eea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7024a866b53fa8ae8fe6a6ec2aea5b13') in 0.007922 seconds 
+  Import took 0.011345 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/pipeCorner - Copy.prefab
+  artifactKey: Guid(e63b24b8550821d4f941dd7b2fecbd83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/pipeCorner - Copy.prefab using Guid(e63b24b8550821d4f941dd7b2fecbd83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae2eab0216f12cf2325fc320273400fc') in 0.007799 seconds 
+  Import took 0.011260 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/metalTileLarge.prefab
+  artifactKey: Guid(cb02a20c8a67b164f9b8d9f91cb94a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/metalTileLarge.prefab using Guid(cb02a20c8a67b164f9b8d9f91cb94a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c6aa507a9f42c79c052c56cd14cb808') in 0.008802 seconds 
+  Import took 0.012085 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/metalStructureBottom.prefab
+  artifactKey: Guid(a017359f538608c48aee3f664c690534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/metalStructureBottom.prefab using Guid(a017359f538608c48aee3f664c690534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1458c019dd94ecb9e3f62dedd43a6f0a') in 0.008400 seconds 
+  Import took 0.011254 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/metalTileConnectCorner - Copy.prefab
+  artifactKey: Guid(db3efa206484ef84f890d2313cb13c28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/metalTileConnectCorner - Copy.prefab using Guid(db3efa206484ef84f890d2313cb13c28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38e48e56fc3d38ded53c833fc94950d8') in 0.010086 seconds 
+  Import took 0.013028 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/metalTileConnectSide - Copy.prefab
+  artifactKey: Guid(96f73836e616646498fa8ba8d2454f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/metalTileConnectSide - Copy.prefab using Guid(96f73836e616646498fa8ba8d2454f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13c9c57e4bd3be6f8bafdea791553152') in 0.009696 seconds 
+  Import took 0.012286 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/meteorFull.prefab
+  artifactKey: Guid(904f6d11494fae044b684584f9b02ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/meteorFull.prefab using Guid(904f6d11494fae044b684584f9b02ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04ab7ef483eb879f70d4f6c6dea5a5da') in 0.007391 seconds 
+  Import took 0.010202 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/metalTileConnectCenter - Copy.prefab
+  artifactKey: Guid(c0047721d85e4834eaff4f6111afd403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/metalTileConnectCenter - Copy.prefab using Guid(c0047721d85e4834eaff4f6111afd403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a37bf393ec2b442ee75bccec4472c2b') in 0.007995 seconds 
+  Import took 0.010734 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000406 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/metalStructureBottom - Copy.prefab
+  artifactKey: Guid(bb4d80d4dadc6154baa74c8d38bedf38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/metalStructureBottom - Copy.prefab using Guid(bb4d80d4dadc6154baa74c8d38bedf38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bfcf9ef0ca4393af5ce665ed13124b9') in 0.008852 seconds 
+  Import took 0.011947 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/metalTileCorner.prefab
+  artifactKey: Guid(369a441aa91c5f14aab9df5b93d4ee57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/metalTileCorner.prefab using Guid(369a441aa91c5f14aab9df5b93d4ee57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b51a69483a706eea628fad14c4640074') in 0.010525 seconds 
+  Import took 0.013879 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/metalTileDouble.prefab
+  artifactKey: Guid(c74e47d330fe99a439afbdd8d67ccbd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/metalTileDouble.prefab using Guid(c74e47d330fe99a439afbdd8d67ccbd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e44a2af06d04e54f7ba5be9686dd9933') in 0.009143 seconds 
+  Import took 0.012302 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/metalStructureCross - Copy.prefab
+  artifactKey: Guid(128474d210dd45149a55ff0a83267fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/metalStructureCross - Copy.prefab using Guid(128474d210dd45149a55ff0a83267fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dda0fdcb99a59ad75663642583999eb') in 0.010328 seconds 
+  Import took 0.014299 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/metalTileConnectSide.prefab
+  artifactKey: Guid(80c5adad62d26ba498e876caa98b9ccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/metalTileConnectSide.prefab using Guid(80c5adad62d26ba498e876caa98b9ccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '237aaf012578d34a62567771e6717a74') in 0.009934 seconds 
+  Import took 0.013008 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000388 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/metalTile.prefab
+  artifactKey: Guid(a6f21fa6e9db34f46bf655edcf1a2d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/metalTile.prefab using Guid(a6f21fa6e9db34f46bf655edcf1a2d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '272b23dc354f3996d1fc53e469de5b8b') in 0.011566 seconds 
+  Import took 0.014444 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/metalTileConnectCenter.prefab
+  artifactKey: Guid(6a0282b27f39cb446a12157ca31353ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/metalTileConnectCenter.prefab using Guid(6a0282b27f39cb446a12157ca31353ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69d723add9f698770d915a58a9f77d75') in 0.007922 seconds 
+  Import took 0.012528 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/meteorFull - Copy.prefab
+  artifactKey: Guid(5e14481383de81345915926c1d8e64f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/meteorFull - Copy.prefab using Guid(5e14481383de81345915926c1d8e64f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf9586f82de7d79ada1bed7195ddcfc8') in 0.009126 seconds 
+  Import took 0.013504 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013696 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/pipeCorner.prefab
+  artifactKey: Guid(dde9536cbfcadc84ca6a6af4ebd43fd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/pipeCorner.prefab using Guid(dde9536cbfcadc84ca6a6af4ebd43fd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e78d98d05d58657a06d70125add72ed8') in 0.011109 seconds 
+  Import took 0.014195 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/pipeCornerDiagonal - Copy.prefab
+  artifactKey: Guid(a70f7af293e9ba04fb6a70e8ac60d18c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/pipeCornerDiagonal - Copy.prefab using Guid(a70f7af293e9ba04fb6a70e8ac60d18c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83173b21eca91f4a02535aafbbfa08a3') in 0.007337 seconds 
+  Import took 0.010154 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/pipeStand.prefab
+  artifactKey: Guid(efd116c74dd5a994aa6c2cde5cf59fc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/pipeStand.prefab using Guid(efd116c74dd5a994aa6c2cde5cf59fc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4af119044c6eea47c2a143571e4cf6f5') in 0.010287 seconds 
+  Import took 0.013227 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/pipeStand - Copy.prefab
+  artifactKey: Guid(9a23a372ac393c14897e9d5c1103b2c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/pipeStand - Copy.prefab using Guid(9a23a372ac393c14897e9d5c1103b2c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71893c7d0ba2a7b1ad2b65b0e06e2d4b') in 0.007736 seconds 
+  Import took 0.011532 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/pipeOpening - Copy.prefab
+  artifactKey: Guid(ac813730c800a2941b292d1e7236fe17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/pipeOpening - Copy.prefab using Guid(ac813730c800a2941b292d1e7236fe17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '036da55bce372fb1e8db828f0af95677') in 0.008482 seconds 
+  Import took 0.011394 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/pipeStandStraightLinerEnd.prefab
+  artifactKey: Guid(495f85270b78f974a87952403b757694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/pipeStandStraightLinerEnd.prefab using Guid(495f85270b78f974a87952403b757694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff0ae61fc710ed719d91723f6ca02c33') in 0.008022 seconds 
+  Import took 0.010832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/pipeStraight - Copy.prefab
+  artifactKey: Guid(ef4a95158589ce34ab7bb8d7b732468b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/pipeStraight - Copy.prefab using Guid(ef4a95158589ce34ab7bb8d7b732468b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76459dfb34c6728de6811252a26617e4') in 0.006780 seconds 
+  Import took 0.009582 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/pipeStraightLiner.prefab
+  artifactKey: Guid(3274c6f5a9c2f7544a3adb7a0119e644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/pipeStraightLiner.prefab using Guid(3274c6f5a9c2f7544a3adb7a0119e644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '031f236c150a6c770b52ef0bd4c117c9') in 0.007842 seconds 
+  Import took 0.010911 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/pipeStraightLiner - Copy.prefab
+  artifactKey: Guid(0ee626880abd48c41818c7b70ecbbd16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/pipeStraightLiner - Copy.prefab using Guid(0ee626880abd48c41818c7b70ecbbd16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f62cb92b60e3d612ba30dc6f83f1b13') in 0.007425 seconds 
+  Import took 0.010489 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/rocks - Copy.prefab
+  artifactKey: Guid(7770c69700472254da226040862edffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/rocks - Copy.prefab using Guid(7770c69700472254da226040862edffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e59db35dd8ac38cf24991ca7f2955b20') in 0.006719 seconds 
+  Import took 0.009163 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/rocksSmallOre.prefab
+  artifactKey: Guid(85a74ccf7d7843c43bada07bdee9dc1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/rocksSmallOre.prefab using Guid(85a74ccf7d7843c43bada07bdee9dc1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aec6c7d9e651c471cac5306f2157067d') in 0.008221 seconds 
+  Import took 0.010416 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/rocksTall.prefab
+  artifactKey: Guid(8113d96a512001b448bed88cbe07788c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/rocksTall.prefab using Guid(8113d96a512001b448bed88cbe07788c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e823d898f7036fb59f53eab16fb3bf7') in 0.006289 seconds 
+  Import took 0.009107 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/satelliteDishAntenna.prefab
+  artifactKey: Guid(ad88b93551094db4cbb62ad2f455577c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/satelliteDishAntenna.prefab using Guid(ad88b93551094db4cbb62ad2f455577c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51e96dde8ba69f99d682bc5510e3d672') in 0.006474 seconds 
+  Import took 0.008988 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/satelliteDish.prefab
+  artifactKey: Guid(fd78d27d561d18d409379e0e37c83e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/satelliteDish.prefab using Guid(fd78d27d561d18d409379e0e37c83e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3fe02faead10e0db202091972bc71d6') in 0.007166 seconds 
+  Import took 0.009951 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/spaceCraft4 - Copy.prefab
+  artifactKey: Guid(46679c055b357b24294ab1e01097ffd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/spaceCraft4 - Copy.prefab using Guid(46679c055b357b24294ab1e01097ffd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93d13a56a3d4b36f20ff00bfaff172e8') in 0.009316 seconds 
+  Import took 0.012387 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/spaceCraft3.prefab
+  artifactKey: Guid(3d46953b6c6ecc84bbdced7ce3ec484f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/spaceCraft3.prefab using Guid(3d46953b6c6ecc84bbdced7ce3ec484f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19ab0adaff65896c3f3341246e0b4b74') in 0.009250 seconds 
+  Import took 0.011804 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/spaceCraft1 - Copy.prefab
+  artifactKey: Guid(15b81480ded7e3548acc422141dcf7d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/spaceCraft1 - Copy.prefab using Guid(15b81480ded7e3548acc422141dcf7d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0bdd346af04befa9576e58e3f4c8312') in 0.008092 seconds 
+  Import took 0.011158 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/spaceCraft6 - Copy.prefab
+  artifactKey: Guid(126008c7d59dbe646966b0bc6751f420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/spaceCraft6 - Copy.prefab using Guid(126008c7d59dbe646966b0bc6751f420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df222e8a90e246f6278fba143a5c1c78') in 0.007051 seconds 
+  Import took 0.009692 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000516 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/spaceCraft6.prefab
+  artifactKey: Guid(b77a20ee1f26a1147b752e0638649709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/spaceCraft6.prefab using Guid(b77a20ee1f26a1147b752e0638649709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96b1dd32e4c6a64444722681842dcf37') in 0.007893 seconds 
+  Import took 0.010573 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/satelliteDishLarge.prefab
+  artifactKey: Guid(9cf93468f1ae8de46892e4010aa7d331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/satelliteDishLarge.prefab using Guid(9cf93468f1ae8de46892e4010aa7d331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47d89b2908f4a02336745064c0926843') in 0.008381 seconds 
+  Import took 0.011792 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/rocksSmall.prefab
+  artifactKey: Guid(f6883946f22ad324d9fe28f839575bdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/rocksSmall.prefab using Guid(f6883946f22ad324d9fe28f839575bdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b94195701f65986f3f31d4e2ffee9e1c') in 0.009100 seconds 
+  Import took 0.012759 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/rocksTallOre.prefab
+  artifactKey: Guid(d6480132ca96e234cb5ce2a31bcabac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/rocksTallOre.prefab using Guid(d6480132ca96e234cb5ce2a31bcabac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1954e24d65d093ae3b7b7458cc0c732c') in 0.008302 seconds 
+  Import took 0.012104 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/spaceCraftStand - Copy.prefab
+  artifactKey: Guid(c23a2e9bc340b4642be50e642012a618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/spaceCraftStand - Copy.prefab using Guid(c23a2e9bc340b4642be50e642012a618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4e0ada92f79cd6157a02fbba9f64ed5') in 0.008131 seconds 
+  Import took 0.011177 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/spaceCraft5 1.prefab
+  artifactKey: Guid(d4fd1359af97f614086c9b81ae5582e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/spaceCraft5 1.prefab using Guid(d4fd1359af97f614086c9b81ae5582e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bac5e6da33b2d95c605b5067336e3a0a') in 0.009105 seconds 
+  Import took 0.012710 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/stairs - Copy.prefab
+  artifactKey: Guid(7bb38941c8ebde14e9ca97d0a32cecfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/stairs - Copy.prefab using Guid(7bb38941c8ebde14e9ca97d0a32cecfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7809593f0f35d94f5832d480802c60ef') in 0.008253 seconds 
+  Import took 0.011167 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/pipeStandStraightLiner - Copy.prefab
+  artifactKey: Guid(8776f58c6a688f349afca6f7c59dde55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/pipeStandStraightLiner - Copy.prefab using Guid(8776f58c6a688f349afca6f7c59dde55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '043700fa68b45945c1458a3b5b116a5e') in 0.008361 seconds 
+  Import took 0.011966 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/portal.prefab
+  artifactKey: Guid(3991d496a9d114245aef9da36557bad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/portal.prefab using Guid(3991d496a9d114245aef9da36557bad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '443406bd662a6e500f5cbdb57559d3ef') in 0.009245 seconds 
+  Import took 0.012382 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/rocksOre - Copy.prefab
+  artifactKey: Guid(5695a4183e0c49c41a6a7b8fd17c6e69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/rocksOre - Copy.prefab using Guid(5695a4183e0c49c41a6a7b8fd17c6e69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d8ebff63a40eb385ebb8ea5a353d2bd') in 0.009575 seconds 
+  Import took 0.012791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/satelliteDishAntenna - Copy.prefab
+  artifactKey: Guid(3908f624e7df1f34dbee39785a41397d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/satelliteDishAntenna - Copy.prefab using Guid(3908f624e7df1f34dbee39785a41397d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb94cafe906b8637172b13b6c1cbe58c') in 0.007886 seconds 
+  Import took 0.011333 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/spaceCraft4.prefab
+  artifactKey: Guid(ff024befe7b67864da13f91b7379a6a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/spaceCraft4.prefab using Guid(ff024befe7b67864da13f91b7379a6a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89bbfe8b02a156e6d4d38041fa693a36') in 0.012775 seconds 
+  Import took 0.015222 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/pipeRamp - Copy.prefab
+  artifactKey: Guid(2f668494f22c128459e7a11460476c0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/pipeRamp - Copy.prefab using Guid(2f668494f22c128459e7a11460476c0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ae913a59df044544b0d8da6fd65cf1d') in 0.008156 seconds 
+  Import took 0.010975 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/rocksTallOre - Copy.prefab
+  artifactKey: Guid(375869ef4cb97c74bbf45d0af1a80316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/rocksTallOre - Copy.prefab using Guid(375869ef4cb97c74bbf45d0af1a80316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '278ffd71bdd33cd83cccc86d9daaa069') in 0.009056 seconds 
+  Import took 0.011968 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/spaceCraft5 1 - Copy.prefab
+  artifactKey: Guid(4e2b94d207bafd0439dfef587262379d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/spaceCraft5 1 - Copy.prefab using Guid(4e2b94d207bafd0439dfef587262379d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2ff27483a7ff6e3550629eea9fac914') in 0.008124 seconds 
+  Import took 0.011182 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/rocksSmallOre - Copy.prefab
+  artifactKey: Guid(2fdc66872862baa469d75d65ede41fe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/rocksSmallOre - Copy.prefab using Guid(2fdc66872862baa469d75d65ede41fe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ff390c51a9489a7803153a72b8732ed') in 0.009294 seconds 
+  Import took 0.012520 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/satelliteDishLarge - Copy.prefab
+  artifactKey: Guid(1102f8beb1854714d816e5506aa14db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/satelliteDishLarge - Copy.prefab using Guid(1102f8beb1854714d816e5506aa14db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff55e25d3474532f3f7bc920fcef422f') in 0.009335 seconds 
+  Import took 0.011857 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/stairs.prefab
+  artifactKey: Guid(dc0f7f152b354424c873af9042013ce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/stairs.prefab using Guid(dc0f7f152b354424c873af9042013ce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '799c29958a52a36f618a990fb732bff9') in 0.009233 seconds 
+  Import took 0.011896 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/portal - Copy.prefab
+  artifactKey: Guid(352ebb5c1e8709a439e50215ef28607e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/portal - Copy.prefab using Guid(352ebb5c1e8709a439e50215ef28607e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da86559332099a194dccad03ba808cc2') in 0.010707 seconds 
+  Import took 0.013482 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/spaceCraft1.prefab
+  artifactKey: Guid(7d8dcb893b9c21049b25db1d4a84fcfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/spaceCraft1.prefab using Guid(7d8dcb893b9c21049b25db1d4a84fcfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb64edb2888f3f495106c3c433a81835') in 0.008410 seconds 
+  Import took 0.011775 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/robot - Copy.prefab
+  artifactKey: Guid(727707f401ec4864ca968fe7fe894e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/robot - Copy.prefab using Guid(727707f401ec4864ca968fe7fe894e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a775a2136b24d1a34dec95f06ab7dd3') in 0.008182 seconds 
+  Import took 0.011093 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/spaceCraftStand.prefab
+  artifactKey: Guid(524335191765ee84db1c6b99c186fc52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/spaceCraftStand.prefab using Guid(524335191765ee84db1c6b99c186fc52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afd724892e2efa476a6e4b0d539dcc48') in 0.007314 seconds 
+  Import took 0.011102 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/spaceCraft5 - Copy.prefab
+  artifactKey: Guid(ee6ececa3b88c864097d06e0d83d5a99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/spaceCraft5 - Copy.prefab using Guid(ee6ececa3b88c864097d06e0d83d5a99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b536b9709f65a2aac187db9d12620385') in 0.008755 seconds 
+  Import took 0.011712 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/satelliteDish - Copy.prefab
+  artifactKey: Guid(5f9bf30f84e54b64d95160fcc3a0d733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/satelliteDish - Copy.prefab using Guid(5f9bf30f84e54b64d95160fcc3a0d733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f877b8a60078a4855c4e9da9bdba551') in 0.008930 seconds 
+  Import took 0.011830 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/rocks.prefab
+  artifactKey: Guid(d6fb5b1722ead03498d5f25b1442a64d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/rocks.prefab using Guid(d6fb5b1722ead03498d5f25b1442a64d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '449bb7eb8f557c905f2d676e4a91e7fa') in 0.007067 seconds 
+  Import took 0.010229 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/pipeStraight.prefab
+  artifactKey: Guid(99fdfe353f6df284baa07fd9fe28ae88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/pipeStraight.prefab using Guid(99fdfe353f6df284baa07fd9fe28ae88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '307838267dbd696295c5177ed865165f') in 0.012408 seconds 
+  Import took 0.014707 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/spaceCraft2.prefab
+  artifactKey: Guid(fdb9953fc03301945a1baf85de6d8402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/spaceCraft2.prefab using Guid(fdb9953fc03301945a1baf85de6d8402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5258bd885157c4262e98c403a69e801') in 0.008945 seconds 
+  Import took 0.011999 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/robot.prefab
+  artifactKey: Guid(bb2b571e79847ce4294c56a035922a3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/robot.prefab using Guid(bb2b571e79847ce4294c56a035922a3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7a34f848270f5413850cf5c1ed107be') in 0.008220 seconds 
+  Import took 0.011017 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/pipeCornerDiagonal.prefab
+  artifactKey: Guid(79ce8f846e5cb3342856c4001ebd4517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/pipeCornerDiagonal.prefab using Guid(79ce8f846e5cb3342856c4001ebd4517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a1302fba4e8a31cc5f328ff16e57319') in 0.007637 seconds 
+  Import took 0.010718 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/pipeOpening.prefab
+  artifactKey: Guid(4d48bbe4b4126fb4f9c0f8fdb5b9986b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/pipeOpening.prefab using Guid(4d48bbe4b4126fb4f9c0f8fdb5b9986b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0934eb94fcd1b0d1bd5e33eb47ea7ca9') in 0.007864 seconds 
+  Import took 0.010595 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/spaceCraft2 - Copy.prefab
+  artifactKey: Guid(81b372329e58bbc49bf217e22a451038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/spaceCraft2 - Copy.prefab using Guid(81b372329e58bbc49bf217e22a451038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b55aba2d7fc3822fe3d72138aaa301a') in 0.009882 seconds 
+  Import took 0.012623 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/station.prefab
+  artifactKey: Guid(dbebcb1a38b252f47b1c8ee5cf7b6d14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/station.prefab using Guid(dbebcb1a38b252f47b1c8ee5cf7b6d14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad0ac8c9648e6c2bb210af19d808f7ce') in 0.008071 seconds 
+  Import took 0.010623 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/stationLarge.prefab
+  artifactKey: Guid(1e8e33fe481d0ca49aacc5bc48402b42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/stationLarge.prefab using Guid(1e8e33fe481d0ca49aacc5bc48402b42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8e254ad557f89e650ccbe3f025e6525') in 0.008932 seconds 
+  Import took 0.011886 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/stationLarge - Copy.prefab
+  artifactKey: Guid(3acf51a40a318084891ee57d51a2ab7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/stationLarge - Copy.prefab using Guid(3acf51a40a318084891ee57d51a2ab7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba484e24f50db8bf34dd095d2ce5c4f8') in 0.007389 seconds 
+  Import took 0.009720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/turret - Copy.prefab
+  artifactKey: Guid(085c12c277f27844bb6f8af2c1df31c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/turret - Copy.prefab using Guid(085c12c277f27844bb6f8af2c1df31c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddb329d252febf891c11f7218562cc00') in 0.007781 seconds 
+  Import took 0.010230 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/rocksOre.prefab
+  artifactKey: Guid(18a61cf33343cf44695687fbb7d61993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/rocksOre.prefab using Guid(18a61cf33343cf44695687fbb7d61993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '561964dfe85ebfa655c40602cdc05a5a') in 0.006893 seconds 
+  Import took 0.009627 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/pipeStandStraightLiner.prefab
+  artifactKey: Guid(e4309b03ef3af174ba96aaf7147b9320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/pipeStandStraightLiner.prefab using Guid(e4309b03ef3af174ba96aaf7147b9320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ed1255d7adafd3b47838fccdae57872') in 0.008565 seconds 
+  Import took 0.012389 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/pipeRamp.prefab
+  artifactKey: Guid(38ddf8b781ad074448858d5146e35406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/pipeRamp.prefab using Guid(38ddf8b781ad074448858d5146e35406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebb7eab5ccb82498e9303c6eb1f7862e') in 0.006868 seconds 
+  Import took 0.009692 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/spaceCraft3 - Copy.prefab
+  artifactKey: Guid(11fbb4c204ce234478737505969ecfaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/spaceCraft3 - Copy.prefab using Guid(11fbb4c204ce234478737505969ecfaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cb847f228a693ed1d492d31bed92a97') in 0.008642 seconds 
+  Import took 0.011905 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/pipeSplit.prefab
+  artifactKey: Guid(7cb5593ea37486e4f9f8f64cabdedee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/pipeSplit.prefab using Guid(7cb5593ea37486e4f9f8f64cabdedee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae98b2da10b2267a096c159c38a4ec9d') in 0.007375 seconds 
+  Import took 0.010445 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/rocksTall - Copy.prefab
+  artifactKey: Guid(4284391a8a13a07449fff543f5096b2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/rocksTall - Copy.prefab using Guid(4284391a8a13a07449fff543f5096b2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4871403c44ed60ad9fa27898e47483c') in 0.007298 seconds 
+  Import took 0.010122 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/pipeSplit - Copy.prefab
+  artifactKey: Guid(8a063ea7454dca44cb37bb72a17bcf9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/pipeSplit - Copy.prefab using Guid(8a063ea7454dca44cb37bb72a17bcf9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '830cbd683a16e1a4ef94b04b2d11320d') in 0.006956 seconds 
+  Import took 0.009670 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/stairsLong - Copy.prefab
+  artifactKey: Guid(dd1e74c193b71a641ab4796fd112c2ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/stairsLong - Copy.prefab using Guid(dd1e74c193b71a641ab4796fd112c2ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbd3140cb702d22a925caa72901f7a99') in 0.007725 seconds 
+  Import took 0.010486 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/rocksSmall - Copy.prefab
+  artifactKey: Guid(c66f57c5ffc64b641b26c00a51dc87c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/rocksSmall - Copy.prefab using Guid(c66f57c5ffc64b641b26c00a51dc87c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c306d2a63899468416d5402972151923') in 0.008755 seconds 
+  Import took 0.012421 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/station - Copy.prefab
+  artifactKey: Guid(c1834c060576bcc4a854f4e5770ee7dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/station - Copy.prefab using Guid(c1834c060576bcc4a854f4e5770ee7dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f8ded2141e0a5f8e7465515635f775e') in 0.010100 seconds 
+  Import took 0.014143 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/turret.prefab
+  artifactKey: Guid(241dbf423c6fede4e8a8317c401e685f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/turret.prefab using Guid(241dbf423c6fede4e8a8317c401e685f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57f44b844a13d952ae8147250a2fbbdd') in 0.008286 seconds 
+  Import took 0.010893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/pipeStandStraightLinerEnd - Copy.prefab
+  artifactKey: Guid(89af075eeb8838a4787dd0fcfa0f802d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/pipeStandStraightLinerEnd - Copy.prefab using Guid(89af075eeb8838a4787dd0fcfa0f802d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '684abbffe95d1b9426c042a12b2a6410') in 0.007585 seconds 
+  Import took 0.009997 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/stairsLong.prefab
+  artifactKey: Guid(b5597a63a213c144e973f9ec747c5c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/stairsLong.prefab using Guid(b5597a63a213c144e973f9ec747c5c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1848e028a92438f886e6958276cf2d92') in 0.008212 seconds 
+  Import took 0.011339 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Assets/Models/Environment/Kenney Scifi Pack/spaceCraft5.prefab
+  artifactKey: Guid(36641f7d99f9b5c46b55df66a7add69d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Environment/Kenney Scifi Pack/spaceCraft5.prefab using Guid(36641f7d99f9b5c46b55df66a7add69d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2d8666180d7bedd03901b2b698e4529') in 0.009626 seconds 
+  Import took 0.013217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.501483 seconds.
+  path: Assets/Assets/Models/Guns - Quaternius/Prefabs/Machine Gun Model - Copy.prefab
+  artifactKey: Guid(e09d3e73c4568504c927b146e70af844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Guns - Quaternius/Prefabs/Machine Gun Model - Copy.prefab using Guid(e09d3e73c4568504c927b146e70af844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6ab300be61ade3a40080a7823f201b1') in 0.030531 seconds 
+  Import took 0.033243 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Assets/Models/Guns - Quaternius/Prefabs/Sniper Model - Copy.prefab
+  artifactKey: Guid(ec67f4ebcd429744ebf319f36e769183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Guns - Quaternius/Prefabs/Sniper Model - Copy.prefab using Guid(ec67f4ebcd429744ebf319f36e769183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c5d0333e85fe4501a45670e97459c36') in 0.009810 seconds 
+  Import took 0.012195 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Assets/Models/Guns - Quaternius/Prefabs/Pistol Model - Copy.prefab
+  artifactKey: Guid(92362ff45550d30499ee6d2995194c0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Guns - Quaternius/Prefabs/Pistol Model - Copy.prefab using Guid(92362ff45550d30499ee6d2995194c0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '159befa07ec9ee11fe669a3806b3a2b5') in 0.012608 seconds 
+  Import took 0.015425 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Assets/Models/Guns - Quaternius/Prefabs/Rocket Launcher Model - Copy.prefab
+  artifactKey: Guid(bf50071ab3ce8ef44b664ffcd61a76cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Guns - Quaternius/Prefabs/Rocket Launcher Model - Copy.prefab using Guid(bf50071ab3ce8ef44b664ffcd61a76cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcd935ce6dadcb132ad6bae77dca1259') in 0.010792 seconds 
+  Import took 0.015056 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.963303 seconds.
+  path: Assets/Prefabs/Kenney.nl Guns
+  artifactKey: Guid(8ab0950b05c9b2544a682faccb448d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Kenney.nl Guns using Guid(8ab0950b05c9b2544a682faccb448d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cd5f667fdd9806d31c0f541d1ce2b27') in 0.002329 seconds 
+  Import took 0.004798 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.212455 seconds.
+  path: Assets/Assets/Models/Guns - Quaternius/Prefabs
+  artifactKey: Guid(2a429030fc8625544bd7d6a7dc1733d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Guns - Quaternius/Prefabs using Guid(2a429030fc8625544bd7d6a7dc1733d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ed646d54dbe3ada171486e4226a0502') in 0.002227 seconds 
+  Import took 0.004558 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.589661 seconds.
+  path: Assets/Assets/Models/Guns - Quaternius/Prefabs/Base Models/Lightning Gun - Copy.fbx
+  artifactKey: Guid(0cf371ab67a932c4abf538f0a9c83215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Guns - Quaternius/Prefabs/Base Models/Lightning Gun - Copy.fbx using Guid(0cf371ab67a932c4abf538f0a9c83215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d2af6b53ee206bf5d246c7ff89ed9e6') in 0.065690 seconds 
+  Import took 0.068502 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Assets/Models/Guns - Quaternius/Prefabs/Base Models/Sniper rifle - Copy.fbx
+  artifactKey: Guid(f111d9d92b602fe4cbcee402fdb86440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Guns - Quaternius/Prefabs/Base Models/Sniper rifle - Copy.fbx using Guid(f111d9d92b602fe4cbcee402fdb86440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4ec5e4636a0f8a6ccdf29d2ff012c2b') in 0.034538 seconds 
+  Import took 0.036957 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Assets/Models/Guns - Quaternius/Prefabs/Base Models/LongPistol - Copy.fbx
+  artifactKey: Guid(d93dfeadf33cd7c43a807bc02e7b5587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Guns - Quaternius/Prefabs/Base Models/LongPistol - Copy.fbx using Guid(d93dfeadf33cd7c43a807bc02e7b5587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a491439a67b9900abf7d81a4b9ea8f86') in 0.038696 seconds 
+  Import took 0.040840 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Assets/Models/Guns - Quaternius/Prefabs/Base Models/LongPistol_small - Copy.fbx
+  artifactKey: Guid(3c92b79a818979041a6af28a6865691d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Guns - Quaternius/Prefabs/Base Models/LongPistol_small - Copy.fbx using Guid(3c92b79a818979041a6af28a6865691d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b885350f12fa215b217038f7f38cadd') in 0.041524 seconds 
+  Import took 0.043745 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Assets/Models/Guns - Quaternius/Prefabs/Base Models/Ray Gun - Copy.fbx
+  artifactKey: Guid(e8931846e9206da4d8f64d56cb05bbf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Guns - Quaternius/Prefabs/Base Models/Ray Gun - Copy.fbx using Guid(e8931846e9206da4d8f64d56cb05bbf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2b0919f38db4e3ff243d399eb76a4de') in 0.041278 seconds 
+  Import took 0.043388 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Assets/Models/Guns - Quaternius/Prefabs/Base Models/Rifle - Copy.fbx
+  artifactKey: Guid(dc3d4a977038a604382035c36c4ae4cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Guns - Quaternius/Prefabs/Base Models/Rifle - Copy.fbx using Guid(dc3d4a977038a604382035c36c4ae4cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f647b457c9377c0e792dd969ab075c39') in 0.039465 seconds 
+  Import took 0.042061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Assets/Models/Guns - Quaternius/Prefabs/Base Models/Pistol - Copy.fbx
+  artifactKey: Guid(e6c82cd2c28408c4d9b45f547da40de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Guns - Quaternius/Prefabs/Base Models/Pistol - Copy.fbx using Guid(e6c82cd2c28408c4d9b45f547da40de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5f0e7d88eac7b7ab3ef03cc99b3f59d') in 0.043373 seconds 
+  Import took 0.046366 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 71.706986 seconds.
+  path: Assets/Scenes/SampleScene
+  artifactKey: Guid(6b571ebb324ead64fa2ac92c4d717015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene using Guid(6b571ebb324ead64fa2ac92c4d717015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '385cc2db31893a85ca55a913f7c08a55') in 0.002364 seconds 
+  Import took 0.007016 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.082883 seconds.
+  path: Assets/Scenes/SampleScene/LightingData.asset
+  artifactKey: Guid(ff42ac5198a9c0247bd14fc9f87c3edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene/LightingData.asset using Guid(ff42ac5198a9c0247bd14fc9f87c3edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b687860f7dd2230b487635442e67bd9c') in 0.003252 seconds 
+  Import took 0.007258 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001138 seconds.
+  path: Assets/Scenes/SampleScene/NavMesh.asset
+  artifactKey: Guid(66cc27a9fac22924a864555b516593e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene/NavMesh.asset using Guid(66cc27a9fac22924a864555b516593e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3be16f98b146c5e1a35593c21058f67') in 0.002523 seconds 
+  Import took 0.007396 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Scenes/SampleScene/ReflectionProbe-0.exr
+  artifactKey: Guid(f7e2cd7b000dc1543b9814a440c96b22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene/ReflectionProbe-0.exr using Guid(f7e2cd7b000dc1543b9814a440c96b22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4d726ae84cdfcbbd7143386b33437fd') in 0.028482 seconds 
+  Import took 0.032662 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.318459 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72d5a6b096a49df2963fc969ad909aa2') in 0.002817 seconds 
+  Import took 0.007146 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.653665 seconds.
+  path: Assets/Assets/Setup Scenes/Level 1.unity
+  artifactKey: Guid(8385f05232e310f4a9dd04a96bfb7b99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Setup Scenes/Level 1.unity using Guid(8385f05232e310f4a9dd04a96bfb7b99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5a033cf04ddb58ce4f0eb0f071b210c') in 0.002195 seconds 
+  Import took 0.006747 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.294040 seconds.
+  path: Assets/Assets/Setup Scenes/Level 2.unity
+  artifactKey: Guid(76d96dfd3c15f384b98c2760244cbb4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Setup Scenes/Level 2.unity using Guid(76d96dfd3c15f384b98c2760244cbb4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce2a2723b7b20efdc54593c49dd699ca') in 0.002822 seconds 
+  Import took 0.006743 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003697 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.012 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1390 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.0 MB.
+System memory in use after: 71.1 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1888.
+Total: 1.698000 ms (FindLiveObjects: 0.141700 ms CreateObjectMapping: 0.045200 ms MarkObjects: 1.460800 ms  DeleteObjects: 0.049600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003526 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.969 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1390 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.0 MB.
+System memory in use after: 71.1 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1891.
+Total: 1.618000 ms (FindLiveObjects: 0.138100 ms CreateObjectMapping: 0.042900 ms MarkObjects: 1.391000 ms  DeleteObjects: 0.044900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005614 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.951 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1390 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.1 MB.
+System memory in use after: 71.1 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1894.
+Total: 1.819300 ms (FindLiveObjects: 0.173300 ms CreateObjectMapping: 0.055700 ms MarkObjects: 1.538200 ms  DeleteObjects: 0.051100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007081 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.117 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1390 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.1 MB.
+System memory in use after: 71.1 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1897.
+Total: 2.275400 ms (FindLiveObjects: 0.193400 ms CreateObjectMapping: 0.072500 ms MarkObjects: 1.923000 ms  DeleteObjects: 0.085300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

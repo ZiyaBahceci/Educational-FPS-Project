@@ -31,7 +31,7 @@ public class EnemyController : MonoBehaviour
         shotWaitCounter = waitBetweenShots;
     }
 
-    // Update is called once per frame
+
     void Update()
     {
         targetPoint = PlayerController.instance.transform.position;
