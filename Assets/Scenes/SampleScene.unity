@@ -2177,15 +2177,15 @@ RectTransform:
   m_GameObject: {fileID: 1532946649}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2.65, y: 4.822812, z: 1}
+  m_LocalScale: {x: 0.2276466, y: 0.26138312, z: 1}
   m_Children: []
   m_Father: {fileID: 1747668544}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 233.79492, y: 61.880005}
-  m_SizeDelta: {x: 141.34961, y: 14.704987}
+  m_AnchoredPosition: {x: 238.5, y: 62.7}
+  m_SizeDelta: {x: 144.261, y: 11.974}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1532946651
 MonoBehaviour:
@@ -2209,16 +2209,16 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
-    m_FontStyle: 1
-    m_BestFit: 0
+    m_FontSize: 150
+    m_FontStyle: 0
+    m_BestFit: 1
     m_MinSize: 0
-    m_MaxSize: 40
+    m_MaxSize: 300
     m_Alignment: 4
     m_AlignByGeometry: 0
-    m_RichText: 0
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 1
+    m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: 'HEALTH: 100/100'
 --- !u!222 &1532946652
@@ -2242,7 +2242,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
-  m_EffectDistance: {x: 2, y: -1}
+  m_EffectDistance: {x: 2, y: 2}
   m_UseGraphicAlpha: 1
 --- !u!1 &1559691272
 GameObject:

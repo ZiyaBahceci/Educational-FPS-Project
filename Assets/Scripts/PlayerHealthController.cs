@@ -33,9 +33,13 @@ public class PlayerHealthController : MonoBehaviour
        
         currentHealth -= damageAmount;
 
-        if(currentHealth <= 0)
+        if(currentHealth <= 0) //if player dies
         {
-            gameObject.SetActive(false);
+            gameObject.SetActive(false); //demobilize player
+
+            currentHealth = 0; //set player to 0 (in case its below 0)
+
+            GameManager.instance.PlayerDeath(); 
         }
         UIController.instance.healthSlider.value = currentHealth;
         UIController.instance.healthText.text = "HEALTH: " + currentHealth + "/" + maxHealth;

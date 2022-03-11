@@ -105,6 +105,8 @@ public class EnemyController : MonoBehaviour
             }
             else
             {
+                if(PlayerController.instance.gameObject.activeInHierarchy)
+                { 
 
                 shootTimeCounter -= Time.deltaTime;
 
@@ -142,6 +144,9 @@ public class EnemyController : MonoBehaviour
                  {
                       shotWaitCounter = waitBetweenShots;
                  }
+
+                }
+
             }
         }
     }
