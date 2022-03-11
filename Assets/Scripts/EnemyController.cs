@@ -111,7 +111,7 @@ public class EnemyController : MonoBehaviour
                 shootTimeCounter -= Time.deltaTime;
 
                 if (shootTimeCounter > 0)
-                {
+                    {
 
                     fireCount -= Time.deltaTime;
 
