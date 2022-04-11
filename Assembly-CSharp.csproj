@@ -65,6 +65,7 @@
     <Compile Include="Assets\Scripts\UIController.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\EnemyHealthController.cs" />
+    <Compile Include="Assets\Scripts\CheckpointController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Assets\Models\Environment\Kenney Scifi Pack\Base Models - Kenney Space Kit\License - Copy.txt" />
